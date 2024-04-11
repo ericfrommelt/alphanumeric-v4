@@ -8,6 +8,11 @@
   </div>
 </template>
 
+<script setup lang="ts">
+  const config = useRuntimeConfig()
+  console.log(config)
+</script>
+
 <style scoped>
   .content-wrapper {
     display: grid;
