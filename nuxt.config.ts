@@ -37,6 +37,6 @@ export default defineNuxtConfig({
   },
   modules: ['@hypernym/nuxt-gsap'],
   runtimeConfig: {
-    gsapToken: '',
+    gsapToken: '47fab126-5492-4bd7-8169-4fc214e3f19a',
   },
 });
