@@ -35,7 +35,7 @@ export default defineNuxtConfig({
       splitText: true,
     },
   },
-  modules: ['@hypernym/nuxt-gsap'],
+  modules: ['@hypernym/nuxt-gsap', '@tresjs/nuxt' ],
   runtimeConfig: {
     gsapToken: '47fab126-5492-4bd7-8169-4fc214e3f19a',
   },

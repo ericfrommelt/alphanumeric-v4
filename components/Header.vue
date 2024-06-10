@@ -4,7 +4,7 @@
       <h1 id="nameplate">Eric Frommelt</h1>
     </div>
     <div class="jobtitle__wrap">
-      <h1 id="job__title">Web Designer +</h1>
+      <h1 id="job__title">Designer +</h1>
     </div>
     <div class="jobtitle__wrapB">
       <h1 id="job__titleB">Creative Technologist</h1>
@@ -20,9 +20,10 @@
 </template>
 
 <style scoped>
-  #namplate, #job__title, #job__titleB {
+  #nameplate, #job__title, #job__titleB {
     margin-left: 0;
     margin-right: 0;
+    text-transform: uppercase;
   }
   .arrow__down {
     grid-column: 2 / span 10;
@@ -36,7 +37,7 @@
 
   #nameplate {
     color: white;
-    font-family: 'TTForsBold', sans-serif;
+    font-family: 'AlmarenaMonoFWDisplayLight', sans-serif;
     font-style: normal;
     padding: 2rem 0 0 0;
     line-height: 8rem;
@@ -56,7 +57,7 @@
 
   #job__title {
     color: white;
-    font-family: 'TTForsBold', sans-serif;
+    font-family: 'AlmarenaMonoFWDisplayLight';
     font-style: normal;
     margin: 0;
     line-height: 10rem;
@@ -64,7 +65,7 @@
 
   #job__titleB {
     color: white;
-    font-family: 'TTForsBold', sans-serif;
+    font-family: 'AlmarenaMonoFWDisplayLight';
     font-style: normal;
     line-height: 1rem
   }
@@ -109,20 +110,23 @@
 
   @media (min-width: 720px) {
     #nameplate, #job__title, #job__titleB {
-      font-size: 5rem;
-      line-height: 6rem;
+      letter-spacing: .3rem;
+      font-size: 2rem;
+      line-height: 3rem;
     }
   } 
 
   @media (min-width: 960px) {
     #nameplate, #job__title, #job__titleB {
-      font-size: 5rem;
+      font-size: 3rem;
+      line-height: 3.6rem;
     }
   } 
 
   @media (min-width: 1080px) {
     #nameplate, #job__title, #job__titleB {
-      font-size: 5rem;
+      font-size: 3.4rem;
+      line-height: 4rem;
     }
   } 
 </style>

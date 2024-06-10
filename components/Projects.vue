@@ -69,7 +69,7 @@
       <h3 class="project__title">Terminal Index</h3>
       <h4 class="project__subhead">Interaction sketchbook</h4>
       <p class="project__role">Design + Development</p>
-      <p class="project__description">I wanted to build a space where I could post small, isolated interaction design experiments on an ongoing basis.</p>
+      <p class="project__description">I wanted to build a space where I could post small, isolated interaction design experiments.</p>
       <div class="project__button">
         <a href="https://terminalindex.vercel.app/">View project</a>
       </div>  
@@ -196,16 +196,30 @@
     margin-top: 0;
     margin-bottom: .4rem;
     font-size: 1.8rem;
+    font-weight: 200;
   }
 
   h4 {
     margin: 0;
+    font-weight:200;
+  }
+
+  h5 {
+    font-weight: 100;
   }
 
   ul {
     list-style: none;
     padding: 0;
     display: flex;
+  }
+
+  li {
+    font-weight: 200;
+  }
+
+  p {
+    font-weight: 100;
   }
 
   .projects {
@@ -242,7 +256,6 @@
 
   .project__number {
     grid-column: 2 / span 10;
-    font-family: 'TTForsRegular';
     font-size: .6rem;
     font-weight: 200;
     padding-right: 1rem;
@@ -250,6 +263,7 @@
   }
 
   #p1, #p2, #p3, #p4{
+    padding-top: 0.2rem;
     display: inline-block;
     clip-path: polygon(0 120%, 100% 100%, 100% 100%, 0% 100%);
     transition: all 1s cubic-bezier(.43,.01,.39,.99);
@@ -264,12 +278,12 @@
   }
 
   .project__subhead {
-    font-weight: 400;
     font-size: 1.2rem;
   }
 
   .tools__list li {
     padding-right: 1rem;
+    margin: 0;
   }
   
   .mini__folio {
@@ -282,6 +296,9 @@
       grid-column: 2 / span 10;
     }
 
+  .tools {
+    margin: 2rem 0;
+  }
 
   @media (min-width: 900px) {
     h2 {

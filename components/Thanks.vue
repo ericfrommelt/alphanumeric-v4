@@ -18,7 +18,7 @@
   
   .thanks__txt {
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: 100;
     grid-column: 2 / span 10;
   }
 

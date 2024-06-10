@@ -9,7 +9,7 @@ body {
   color: var(--primary-color-dark);
   padding: 0;
   margin: 0;
-  font-family: 'TTForsRegular', -apple-system, BlinkMacSystemFont, Segoe UI,
+  font-family: 'CodeNextVariableRoman', -apple-system, BlinkMacSystemFont, Segoe UI,
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
 }
